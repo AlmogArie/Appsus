@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.keep-main {
+    background-color: lightslategray;
+}
+
+.keep-header {
+    color: lime;
+}
+
+.notes-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note-preview {
+    display: flex;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.note-preview button{
+    width: 25px;
+    height: 25px;
+    /* align-content: center;
+    top: 5px;
+    right: 5px; */
+}
+
+.img-note img {
+    width: 100%;
+}
+
+.img-note, .list-note, .txt-note, .video-note:hover {
+    cursor: pointer;
+}
+
+.selected-note {
+    text-decoration: none;
+    
+}
+
+
+.selected-note, .list-note:visited {
+    color: unset;
+    
+}

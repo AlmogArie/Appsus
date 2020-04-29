@@ -1,0 +1,84 @@
+.email-preview{
+    background-color: gray;
+    width: 70vw;
+    text-align: center;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.email-details{
+    background-color: gray;
+    width: 70vw;
+    text-align: center; 
+    margin: auto;
+    font-size: 20px; 
+}
+
+
+Link{
+    text-decoration: none;
+}
+
+p{
+    color: black;
+}
+
+.btn-delete{
+    font-size: 20px;
+}
+
+.email-decoration-none{
+    color: black;
+    text-decoration: none;
+}
+
+.tabs{
+    border: 5px solid black;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.is-read{
+    background-color: rgb(185, 184, 184);
+}
+.email-tabs{
+    
+    height: 80vh;
+}
+
+.compose{
+    margin: auto;
+}
+
+.compose-sub{
+width: 500px;
+height: 50px;
+}
+
+.compose-body{
+    width: 700px;
+    height: 300px;
+}
+
+.btn-trash-send{
+    font-size: 30px;
+    
+}
+
+.tab{
+    text-decoration: underline;
+}
+
+.trash{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
